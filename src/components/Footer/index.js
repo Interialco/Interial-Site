@@ -1,6 +1,6 @@
 import React from 'react';
 import { animateScroll as scroll } from 'react-scroll';
-import { FaDiscord, FaLinkedin } from 'react-icons/fa';
+import { FaDiscord, FaLinkedin, FaGithub } from 'react-icons/fa';
 import {
   FooterContainer,
   FooterWrap,
@@ -42,7 +42,8 @@ const Footer = () => {
               Interial
             </SocialLogo>
             <WebsiteRights>
-              Copyright © {new Date().getFullYear()} Interial | All Rights Reserved.
+              Copyright © {new Date().getFullYear()} Interial | All Rights
+              Reserved.
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink
@@ -58,6 +59,13 @@ const Footer = () => {
                 aria-label="Discord"
               >
                 <FaDiscord />
+              </SocialIconLink>
+              <SocialIconLink
+                href="https://github.com/Interialco/interial-site"
+                target="_blank"
+                aria-label="GitHub"
+              >
+                <FaGithub />
               </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>
